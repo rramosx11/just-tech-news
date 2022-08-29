@@ -3,7 +3,6 @@ const sequelize = require("../config/connection");
 
 class Post extends Model {}
 
-// creat fields/columns for Post model
 // create fields/columns for Post model
 Post.init(
   {
